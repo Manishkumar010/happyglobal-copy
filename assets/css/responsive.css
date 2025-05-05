@@ -1,22 +1,27 @@
 @media only screen and (max-width:766px) {
     swiper-slide .content-box h1 {
         font-size: 2em;
-        line-height: 60px;
+        line-height: 46px;
     }
 
-    .swiper-button-next,
-    .swiper-button-prev {
-        display: none !important;
+    swiper-slide .content-box{
+        top: 42%;
     }
+
 
     .page1-content {
         width: 96%;
         gap: 1em;
+        padding: 3em 1em;
     }
 
     .page1-content h1 {
         text-align: center;
-        font-size: 1.6em;
+        font-size: 1.8em;
+        color: #FF7113;
+    }
+    .page2-container{
+        padding: 0;
     }
 
     .page2-container swiper-slide p {
@@ -26,7 +31,7 @@
     .page3-container .page3-box {
         width: 96%;
         gap: 1em;
-        padding: 2em;
+        padding: 2em 1em;
     }
 
     .page3-container .page3-box h2 {
@@ -130,10 +135,12 @@
         overflow: visible;
         height: 14vh;
     }
-    .opennav{
+
+    .opennav {
         display: flex;
     }
-    .closenav{
+
+    .closenav {
         display: flex;
         position: absolute;
         right: 6%;
@@ -148,7 +155,7 @@
         top: 0;
         width: 0%;
         right: 0px;
-        height:0vh;
+        height: 0vh;
         background-color: black;
         padding: 0em;
         overflow: hidden;
@@ -158,8 +165,9 @@
         -moz-transition: all 0.4s ease;
         -ms-transition: all 0.4s ease;
         -o-transition: all 0.4s ease;
-}
-    header nav.active{
+    }
+
+    header nav.active {
         width: 66%;
         height: 100vh;
         padding: 2em;
@@ -168,7 +176,11 @@
         -moz-transition: all 0.4s ease;
         -ms-transition: all 0.4s ease;
         -o-transition: all 0.4s ease;
-}
+    }
+    swiper-slide .content-box p{
+        font-size: 1.1em;
+        line-height: 28px;
+    }
 }
 
 /* @media only screen and (min-width: 768px) and (max-width:1023px) */
