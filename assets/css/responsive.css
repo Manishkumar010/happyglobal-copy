@@ -1,0 +1,174 @@
+@media only screen and (max-width:766px) {
+    swiper-slide .content-box h1 {
+        font-size: 2em;
+        line-height: 60px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none !important;
+    }
+
+    .page1-content {
+        width: 96%;
+        gap: 1em;
+    }
+
+    .page1-content h1 {
+        text-align: center;
+        font-size: 1.6em;
+    }
+
+    .page2-container swiper-slide p {
+        text-align-last: center;
+    }
+
+    .page3-container .page3-box {
+        width: 96%;
+        gap: 1em;
+        padding: 2em;
+    }
+
+    .page3-container .page3-box h2 {
+        font-size: 2em;
+    }
+
+    .page3-container .page3-box2 {
+        flex-direction: column;
+        padding: 0;
+        width: 96%;
+        gap: 1em;
+    }
+
+    .page3-container .page3-box2 .boxx {
+        width: 100%;
+    }
+
+    .pages4-container {
+        width: 96%;
+        margin: auto;
+    }
+
+    .pages4-container {
+        width: 100%;
+    }
+
+    .pages4-container .services {
+        width: 96%;
+    }
+
+    .pages4-container .services h2 {
+        font-size: 3em;
+    }
+
+    .pages4-container .services-boxes .servicesBox {
+        width: 100%;
+        height: auto;
+        padding: 1em;
+    }
+
+    .pages4-container .services-boxes .servicesBox .img {
+        height: 200px;
+    }
+
+    .pages4-container .services-boxes .servicesBox h3 {
+        font-size: 2em;
+    }
+
+    .pages5-container .services {
+        width: 96%;
+    }
+
+    .pages5-container .services h2 {
+        font-size: 3em;
+    }
+
+    .pages5-container .productBox {
+        width: 96%;
+        padding: 1em;
+    }
+
+    .pages5-container .productBox .img {
+        height: 200px;
+    }
+
+    .pages5-container .productBox h3 {
+        line-height: 48px;
+        text-align: center;
+    }
+
+    .pages6-container .services {
+        width: 96%;
+    }
+
+    .pages6-container .services h2 {
+        font-size: 3em;
+    }
+
+    .pages6-container {
+        margin-top: 0;
+    }
+
+    .pages6-container .conatctBox {
+        padding: 2em 1em;
+        flex-direction: column;
+        gap: 1.5em;
+    }
+
+    .pages6-container .conatctBox div {
+        width: 100%;
+        height: auto;
+    }
+
+    .copyrightbox {
+        width: 96%;
+        text-align: center;
+    }
+
+    header {
+        padding: 1em 1.5em;
+        overflow: visible;
+        height: 14vh;
+    }
+    .opennav{
+        display: flex;
+    }
+    .closenav{
+        display: flex;
+        position: absolute;
+        right: 6%;
+        top: 3%;
+    }
+
+    header nav {
+        position: fixed;
+        display: flex;
+        gap: 2em;
+        flex-direction: column;
+        top: 0;
+        width: 0%;
+        right: 0px;
+        height:0vh;
+        background-color: black;
+        padding: 0em;
+        overflow: hidden;
+        transition: all 0.4s ease;
+        z-index: 9999;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+}
+    header nav.active{
+        width: 66%;
+        height: 100vh;
+        padding: 2em;
+        transition: all 0.4s ease;
+        -webkit-transition: all 0.4s ease;
+        -moz-transition: all 0.4s ease;
+        -ms-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+}
+}
+
+/* @media only screen and (min-width: 768px) and (max-width:1023px) */
