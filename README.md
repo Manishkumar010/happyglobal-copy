@@ -97,7 +97,7 @@ style.html
 👤 **Author**
 ------------
 
-* [Your Name](https://github.com/Manishkumar010)
+* [Manish](https://github.com/Manishkumar010)
 
 📝 **License**
 ------------
